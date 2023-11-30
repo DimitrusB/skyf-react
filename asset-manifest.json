@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/skyf-react/static/js/main.b1681965.js",
+    "static/media/foot.svg": "/skyf-react/static/media/foot.1fbe56bf6d7c8a04691ea0437e4b52ab.svg",
+    "static/media/svgAero.svg": "/skyf-react/static/media/svgAero.a9f4f12031a0f98c36b56fe88828b6db.svg",
+    "static/media/svgDance.svg": "/skyf-react/static/media/svgDance.bf69c9d01b742504fc29efda4d65c6f3.svg",
+    "static/media/svgYoga.svg": "/skyf-react/static/media/svgYoga.94da1a6b164c5e3c14daa345ce1c3a58.svg",
+    "static/media/svgBodyflex.svg": "/skyf-react/static/media/svgBodyflex.4082b5791fe92c2bfb7d30b8c5fdd01b.svg",
+    "static/media/svgStretch.svg": "/skyf-react/static/media/svgStretch.ac48494cd19670e19072c837bcbf2623.svg",
+    "static/media/hand.svg": "/skyf-react/static/media/hand.e139fc743d3d73c72300047731755a15.svg",
+    "index.html": "/skyf-react/index.html",
+    "main.b1681965.js.map": "/skyf-react/static/js/main.b1681965.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b1681965.js"
+  ]
+}
