@@ -49,7 +49,7 @@ export const AppRoutes = () => {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route element={<ProtectedRoute userData={userData} />}>
           <Route
