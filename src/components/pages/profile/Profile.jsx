@@ -43,7 +43,7 @@ export const ProfilePage = ({ userData, setUserData }) => {
 		<S.Wrapper>
 			<S.LogoHeader>
 				<NavLink to='/'>
-					<S.Logo src='/logo2.png' />
+					<S.Logo src={`${process.env.PUBLIC_URL}/logo2.png`} />
 				</NavLink>
 
 				{userData ? (
