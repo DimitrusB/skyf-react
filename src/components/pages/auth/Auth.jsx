@@ -42,13 +42,13 @@ export const Auth = () => {
 		<S.Wrapper>
 			<S.LogoHeader>
 				<NavLink to='/'>
-					<S.Logo src={`${process.env.PUBLIC_URL}/logo.png`}></S.Logo>
+					<S.Logo src='/logo.png'></S.Logo>
 				</NavLink>
 			</S.LogoHeader>
 
 			<S.Container>
 				<S.LogInForm>
-					<S.Logo src={`${process.env.PUBLIC_URL}/logo2.png`}></S.Logo>
+					<S.Logo src='/logo2.png'></S.Logo>
 					<S.EmailInput type='email' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)}/>
 
 					<S.PasswordInput type='password' placeholder='Пароль' value={password} onChange={(e) => setPassword(e.target.value)}/>

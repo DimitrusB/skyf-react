@@ -11,9 +11,7 @@ export const Main = ({ userData, setUserData }) => {
 			setTimeout(goTop, 0);
 		}
 	}
-	const logo = `${process.env.PUBLIC_URL}/logo.png`;
 
-	const changebody = `${process.env.PUBLIC_URL}/changeBody.png`;
 	const [color, setColor] = useState();
 
 	const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +32,7 @@ export const Main = ({ userData, setUserData }) => {
 		<S.Wrapper>
 			<S.Header>
 				<S.LogoHeader>
-					<S.Logo src={logo} alt="Logo" />
+					<S.Logo src='/logo.png' />
 					{userData ? (
 						<S.MenuStyle onMouseLeave={mouseOut} onClick={toggleOpen}>
 							<svg
@@ -73,7 +71,7 @@ export const Main = ({ userData, setUserData }) => {
 							Начните заниматься спортом и улучшите качество жизни
 						</S.BigText>
 						<S.ChangeBodyBlock>
-							<S.ChangeBodyImg src={changebody} alt="changebody"/>
+							<S.ChangeBodyImg src='/changeBody.png' />
 						</S.ChangeBodyBlock>
 					</S.BigTextBlock>
 				</S.TextHeader>

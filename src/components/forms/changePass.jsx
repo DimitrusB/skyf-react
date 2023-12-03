@@ -28,7 +28,7 @@ export const FormPassword = ({ closeModal }) => {
 		<S.Wrapper>
 			<S.Container>
 				<S.LogInForm>
-					<S.Logo src={`${process.env.PUBLIC_URL}/logo2.png`}></S.Logo>
+					<S.Logo src='/logo2.png'></S.Logo>
 					<S.Span>Новый пароль:</S.Span>
 					<S.PasswordInput
 						type='password'
