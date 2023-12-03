@@ -32,7 +32,7 @@ export const Main = ({ userData, setUserData }) => {
 		<S.Wrapper>
 			<S.Header>
 				<S.LogoHeader>
-					<S.Logo src='/logo.png' />
+					<S.Logo src={`${process.env.PUBLIC_URL}/logo.png`} />
 					{userData ? (
 						<S.MenuStyle onMouseLeave={mouseOut} onClick={toggleOpen}>
 							<svg
@@ -71,7 +71,7 @@ export const Main = ({ userData, setUserData }) => {
 							Начните заниматься спортом и улучшите качество жизни
 						</S.BigText>
 						<S.ChangeBodyBlock>
-							<S.ChangeBodyImg src='/changeBody.png' />
+							<S.ChangeBodyImg src={`${process.env.PUBLIC_URL}/changeBody.png`} />
 						</S.ChangeBodyBlock>
 					</S.BigTextBlock>
 				</S.TextHeader>

@@ -173,7 +173,7 @@ export const WorkOut = ({ userData, setUserData }) => {
 		<S.Wrapper>
 			<S.LogoHeader>
 				<NavLink to='/'>
-					<S.Logo src='/logo2.png'></S.Logo>
+					<S.Logo src={`${process.env.PUBLIC_URL}/logo2.png`}></S.Logo>
 				</NavLink>
 				{userData ? (
 					<S.MenuStyle onMouseLeave={mouseOut} onClick={toggleOpen}>
